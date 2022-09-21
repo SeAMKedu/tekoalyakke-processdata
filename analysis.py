@@ -6,17 +6,14 @@ Created on Thu Mar 10 13:20:13 2022
 @author: Mika Valkama
 """
 
-from sklearn.cluster import KMeans
-import matplotlib.pyplot as plt
-import seaborn as sns; sns.set()  # for plot styling
-
-import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.patches import Ellipse
-import matplotlib.transforms as transforms
-from matplotlib.backends.backend_pdf import PdfPages
-import numpy as np
 import itertools
+
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.transforms as transforms
+from matplotlib.patches import Ellipse
+from matplotlib.backends.backend_pdf import PdfPages
+from sklearn.cluster import KMeans
 from scipy.spatial.distance import cdist
 from tqdm import tqdm
 
