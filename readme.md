@@ -40,7 +40,7 @@ pip install --upgrade tensorflow-macos tensorflow-metal pandas numpy matplotlib 
 
 Vaikka rivejä ei datasetissä ole kovin paljoa (vajaa 300), on mitattuja pisteitä per ajo yli 30. Ensi yhdistely ja siivoaminen tehtiin Knime:llä (https://www.knime.com/). Setistä pudotettiin ensin vakio arvot pois ja kellon aikojen perusteella laskettiin kestoja varten valmiiksi uudet sarakkeet. 
 
-Tämän jälkeen etsimme mahdollisia ryhmiä katsomalla läpi arvojen pareja. Elbow menetelmällä selvitettiin montako ryhmää arvoparista löytyisi ja piirrettiin ne omaksi kuvaajakseen. 
+Tämän jälkeen etsimme mahdollisia ryhmiä katsomalla läpi arvojen pareja. K-means klusterointi-algoritmilla klusterin lukumäärää voidaan arvioida heuristisesti elbow-menetelmällä, jossa pyritään löytämään datasta kiintopisteitä ja niiden lukumääriä. Valitsemalla sopiva klusterimäärä ja asettamalla pisteitä, varianssi laskee merkittävästi ko. pisteiden ympärillä. Ohjelma pyrkii löytämään dataan parhaiten sopivan klusterimäärän, jota voi tarkastella elbow-menetelmän ja "Data & clusters" kuvaajista.
 
 Confidence ellipsien muotoja tutkimalla etsimme pareja joilla olisi merkittävä vaikutus toisiinsa. Mitä kapeampi ellipsi on, sitä voimakkaamin arvot näyttävät vaikuttavan toisiinsa.
 
