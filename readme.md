@@ -6,6 +6,8 @@
 [model]:            /img/model.png 
 [analysis]:         /img/sample_analysis.png
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10682589.svg)](https://doi.org/10.5281/zenodo.10682589)
+
 # Prosessidatan käsittelyä
 
 Tässä Tekoäly-AKKE hankkeen demossa käymme läpi prosessidatan luokittelua ja analysointia. Data on peräisin oikeasta tehdasympäristöstä, mutta se on tähän liitetty mukaan hieman muokattuna ja anonymisoituna. Ensimmäisessä esimerkissä tehdään erilaisia analyysejä datalle ja koitetaan löytää sieltä pareja, jotka vaikuttavat toisiinsa. Toinen esimerkki luokittelee mittaustulosten perusteella, onko prosessin tulos minkälaatuinen.
